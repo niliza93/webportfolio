@@ -1,0 +1,62 @@
+/*CSS File for my web developer profile*/
+/*Color palette: Hex color codes:  #153462,  #11bfae,  #dae1e7 and  #ffffff - white */
+
+
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: "Nunito Sans", sans-serif;
+}
+
+nav {
+	background-color: #153462;
+}
+
+btn {
+	background-color: #153462;
+}
+
+#landing {
+	background-color: #dae1e7;
+
+}
+
+#projects {
+	background-color: #dae1e7;
+}
+
+#contact {
+	background-color: #dae1e7;
+}
+
+#form {
+	background-color: #11bfae;
+}
+
+#card {
+	background-color: #11bfae;
+	width: 18rem;
+}
+
+
+h3 {
+	font-weight: 600;
+}
+
+footer {
+	background-color: #153462;
+}
+
+#projectsimg {
+	height: 250px;
+}
+
+
+#contactlogo {
+	height: 40px;
+	
+}
+
