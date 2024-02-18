@@ -41,6 +41,10 @@ btn {
 	width: 18rem;
 }
 
+#endpart {
+	background-color: #dae1e7;
+	height: 20px;
+}
 
 h3 {
 	font-weight: 600;
@@ -52,7 +56,12 @@ footer {
 
 #projectsimg {
 	height: 250px;
+	width: 200px;
+	display: block;
+	margin: 0 auto;
+	padding:1rem;
 }
+
 
 
 #contactlogo {
@@ -60,4 +69,6 @@ footer {
 	
 }
 
-/*comment*/
+/*tools*/
+
+/*tools end*/

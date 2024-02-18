@@ -61,21 +61,21 @@
 
 	
 
-	<section id="landing" class="container-fluid p-5">
+	<section id="landing" class="container-fluid p-5 mx-auto text-center">
 	  <div class="row align-items-center">
 	  	<div class="col-12 col-md-4 order-md-1 text-center">
 	      <img class="rounded-circle" src="./images/image1.png" width="250">
 	    </div>
 	    <div class="col-12 col-md-8 order-md-2">
-	      <h1 class="mt-md-5">Niliza Villodres</h1>
-	      <h3>Full Stack Web Developer</h3>
-	      <P>
+	      <h1 class="mt-md-5 text-md-left">Niliza Villodres</h1>
+	      <h3 class="text-md-left">Full Stack Web Developer</h3>
+	      <P class="text-md-left">
 	        As an aspiring full stack web developer at Zuitt Coding Bootcamp, I have already mastered HTML, CSS, and Bootstrap, setting a strong foundation for my journey. With a quick grasp of new concepts, a passion for technology, and unwavering determination, I am dedicated to expanding my skill set. 
 	      </P>
-	      <p>
+	      <p class="text-md-left">
 	        In the upcoming months, I look forward to exploring JavaScript and other programming languages, as well as essential tools for front end, back end, and full stack development. Each new challenge presents an opportunity for growth in the dynamic field of web development.
 	      </p>
-	      <p>
+	      <p class="text-md-left">
 	        If you need a dedicated and motivated web developer to bring your online projects to life, I am ready for the task. With expertise in HTML, CSS, and Bootstrap, and a hunger for learning new technologies, I am well-prepared to tackle the demands of modern web development. Together, we can create exceptional websites and applications that make an impact in the digital world.
 	      </p>
 	    </div>
@@ -90,8 +90,8 @@
 	<!-- Add skills, work experience, education -->
 	<!-- <section id="about-me"> -->
 
-	<section id="about-me" class="container-fluid text-center p-5">
-		<h3>About Me</h3>
+	<section id="about-me" class="container-fluid text-center p-5 mx-auto">
+		<h3 class="mb-5">About Me</h3>
 		<div class="accordion" id="accordionExample">
 		  <div class="card">
 		    <div class="card-header" id="headingOne">
@@ -213,53 +213,48 @@
 	<!-- Add html, css, bootstrap -->
 	<!-- <section id="projects"> -->
 
-	<section id="projects">
-		<div class="text-dark p-5 text-center mx-md-5">
-			<h2>Projects</h2>
-			<div class="d-lg-flex justify-content-center p-md-5">
+		<!-- version 1 -->
+ 		<!-- discarded and saved to another file -->
+		<!-- version 1 -->
 
-				<!-- HTML Card Start -->
-				<div class="card col-12 col-md-4 mb-4 m-md-5">
-				  <div class="card-body">
-				  	<img id="projectsimg" src="./images/html2.png" class="card-img-top" alt="...">
-				    <h5 class="card-title mt-2">HTML</h5>
-				    <h6 class="card-subtitle mb-2 text-white">HTML: Structure of Web Pages</h6>
-				    <p class="card-text">I have developed a strong foundation in HTML, mastering the basic structure of the language along with various elements, tags, hyperlinks, attributes, tables, and forms. Through individual and group work activities, I have honed my skills in creating well-structured web pages that are both visually appealing and functional. I have completed group activities that showcase my ability to design and implement websites with clear navigation, forms, and organized content. My proficiency in HTML allows me to create engaging digital experiences that cater to the needs of users while adhering to web development best practices.</p>
-				    
-				  </div>
-				</div>
-				<!-- HTML Card End -->
-
-				<!-- CSS Card Start -->
-				<div class="card col-12 col-md-4 mb-4 m-md-5">
-				  <div class="card-body">
-				  	<img id="projectsimg" src="./images/css2.png" class="card-img-top w-100" alt="...">
-				    <h5 class="card-title mt-2">CSS</h5>
-				    <h6 class="card-subtitle mb-2 text-white">Styling for Web Design</h6>
-				    <p class="card-text">Through group activities, I have sharpened my CSS skills by delving deep into styling elements, selectors, combinators, specificity, box models, and other key aspects of CSS. Working collaboratively on various projects has allowed me to apply these skills in real-world scenarios, enhancing my understanding of how CSS can be used to create visually appealing and dynamic web designs. By actively participating in group activities, I have not only strengthened my proficiency in CSS but also gained valuable experience in working as part of a team to achieve common goals. This hands-on approach to learning has been instrumental in broadening my skill set and preparing me to tackle more complex CSS challenges in the future.</p>
-				    
-				  </div>
-				</div>
-				<!-- CSS Card End -->
-
-				<!-- Bootstrap Card Start -->
-				<div class="card col-12 col-md-4 mb-4 m-md-5" style="width: 18rem;">
-				  <div class="card-body">
-				  	<img id="projectsimg" src="./images/bootstrap2.png" class="card-img-top" alt="...">
-				    <h5 class="card-title mt-2">Bootstrap</h5>
-				    <h6 class="card-subtitle mb-2 text-white">Responsive Web Design Framework</h6>
-				    <p class="card-text">I have learned and applied skills in Bootstrap, using both version 4 and 5 of the framework. I utilized Bootstrap's styles, grid system, flex properties, UI components, and other essential Bootstrap code. These skills have been put to the test in numerous projects completed collaboratively with my peers. By working on these projects, I have gained hands-on experience in implementing responsive designs, creating visually appealing interfaces, and optimizing user experience through the effective use of Bootstrap features. My proficiency in Bootstrap has allowed me to contribute significantly to the success of our group projects and has equipped me with valuable expertise in front-end development.</p>
-				    
-				  </div>
-				</div>
-				<!-- Bootstrap Card End -->
-				
-			</div>
-			<!-- Other Projects Container End -->
+		<!-- version 2 -->
+	<section id="projects" class="container-fluid text-center py-3 pb-3 mx-auto">
+		<h3 class="text-center pt-5">Projects</h3>
+		<div class="card-deck p-m-4 p-5">
+		  <div class="card">
+		    <img id="projectsimg" src="./images/html2.png" class="card-img-top text-center" alt="...">
+		    <div class="card-body text-center">
+		      <h4 class="card-title ">HTML</h4>
+		      <p class="card-text text-center"><small class="text-muted text-center">HTML: Structure of Web Pages</small></p>
+		      <p class="card-text text-center">I have developed a strong foundation in HTML, mastering the basic structure of the language along with various elements, tags, hyperlinks, attributes, tables, and forms. Through individual and group work activities, I have honed my skills in creating well-structured web pages that are both visually appealing and functional. I have completed group activities that showcase my ability to design and implement websites with clear navigation, forms, and organized content. My proficiency in HTML allows me to create engaging digital experiences that cater to the needs of users while adhering to web development best practices.</p>
+		      
+		    </div>
+		  </div>
+		  <div class="card">
+		    <img id="projectsimg" src="./images/css2.png" class="card-img-top" alt="...">
+		    <div class="card-body">
+		      <h4 class="card-title text-center">CSS</h4>
+		      <p class="card-text text-center"><small class="text-muted">Styling for Web Design</small></p>
+		      <p class="card-text text-center">Through group activities, I have sharpened my CSS skills by delving deep into styling elements, selectors, combinators, specificity, box models, and other key aspects of CSS. Working collaboratively on various projects has allowed me to apply these skills in real-world scenarios, enhancing my understanding of how CSS can be used to create visually appealing and dynamic web designs. By actively participating in group activities, I have not only strengthened my proficiency in CSS but also gained valuable experience in working as part of a team to achieve common goals. This hands-on approach to learning has been instrumental in broadening my skill set and preparing me to tackle more complex CSS challenges in the future.</p>
+		      
+		    </div>
+		  </div>
+		  <div class="card">
+		    <img id="projectsimg" src="./images/bootstrap2.png" class="card-img-top" alt="...">
+		    <div class="card-body">
+		      <h4 class="card-title text-center">Bootstrap</h4>
+		      <p class="card-text text-center"><small class="text-muted text-center">Responsive Web Design Framework</small></p>
+		      <p class="card-text text-center">I have learned and applied skills in Bootstrap, using both version 4 and 5 of the framework. I utilized Bootstrap's styles, grid system, flex properties, UI components, and other essential Bootstrap code. These skills have been put to the test in numerous projects completed collaboratively with my peers. By working on these projects, I have gained hands-on experience in implementing responsive designs, creating visually appealing interfaces, and optimizing user experience through the effective use of Bootstrap features. My proficiency in Bootstrap has allowed me to contribute significantly to the success of our group projects and has equipped me with valuable expertise in front-end development.</p>
+		      
+		    </div>
+		  </div>
 		</div>
 	</section>
 
-	<!-- Section 3 Projects End-->
+		<!-- version 2 -->
+
+
+	<!-- Section 3 Projects End--> 
 
 
 	<!-- Section 4 Tools Start-->
@@ -267,34 +262,52 @@
 	<!-- <section id="tools"> -->
 
 	<section id="tools">
-		<div class="container-fluid">
-		    <h3 class="text-center mt-5">Tools</h3>
-		    <div class="mx-5 text-center">
-		    	<p>I am currently expanding my skills in web development by learning various tools for frontend, back end, and full stack development. In frontend development, I am familiarizing myself with popular frameworks such as HTML, CSS, and JavaScript. 
-		    	</p>
-		    	<p>Additionally, I am exploring tools for back end and full stack development. These tools have been instrumental in enhancing my capabilities in web development, and I am excited to continue learning and growing in this dynamic field.</p>
+		<div class="container-fluid" class="container-fluid text-center py-3 pb-3 mx-auto">
+		    <div class="p-5">
+		      <h2 class="text-center">Tools</h2>
 		    </div>
-		    <div class="row d-flex flex-md-column">
-		    	
-		        <div id="tools-1" class="col-6 col-md-12 d-md-flex justify-content-center">
-		        	<img width="150" src="./images/logo-html5.png"/>
-		        	<img width="150" src="images/logo-css3.png"/>
-		        	<img width="150" src="images/logo-javascript.png"/>
-		            <img width="150" src="images/logo-mongodb.png"/>
-		            <img width="150" src="images/logo-nodejs.png"/>
-		            <img width="150" src="images/logo-expressjs.png"/>
-		            
-		        </div>
-		        <div id="tools-2" class="col-6 col-md-12 d-md-flex justify-content-center">
-		        	<img width="150" src="images/logo-react.png"/>
-		        	<img width="150" src="images/logo-heroku.png"/>
-		            <img width="150" src="images/logo-git.png"/>
-		            <img width="150" src="images/logo-sublime-text-3.png"/>
-		            <img width="150" src="images/logo-postman.png"/>
-		            <img width="150" src="images/logo-gitlab-ci-cd.png"/>
-		        
-		        </div>
-		    </div>	    
+		    
+		    <div class="mx-5 text-center">
+		    	<p class="px-md-5">I am currently expanding my skills in web development by learning various tools for frontend, back end, and full stack development. In frontend development, I am familiarizing myself with popular frameworks such as HTML, CSS, and JavaScript. 
+		    	</p>
+		    	<p class="px-md-5">Additionally, I am exploring tools for back end and full stack development. These tools have been instrumental in enhancing my capabilities in web development, and I am excited to continue learning and growing in this dynamic field.</p>
+		    </div>
+
+		   
+	        <div class="d-flex flex-wrap justify-content-center">
+	          <div class="row justify-content-center">
+	            <div class="col-6 col-md-3 col-lg-2">
+	              <div class="text-center">
+	                <img width="150" src="./images/logo-html5.png"/>
+	                <img width="150" src="./images/logo-css3.png"/>
+	                <img width="150" src="./images/logo-javascript.png"/>
+	              </div>
+	            </div>
+	            <div class="col-6 col-md-3 col-lg-2">
+	              <div class="text-center">
+	                <img width="150" src="./images/logo-mongodb.png"/>
+	                <img width="150" src="./images/logo-nodejs.png"/>
+	                <img width="150" src="./images/logo-expressjs.png"/>
+	              </div>
+	            </div>
+	            <div class="col-6 col-md-3 col-lg-2">
+	              <div class="text-center">
+	                <img width="150" src="./images/logo-react.png"/>
+	                <img width="150" src="./images/logo-heroku.png"/>
+	                <img width="150" src="./images/logo-git.png"/>
+	              </div>
+	            </div>
+	            <div class="col-6 col-md-3 col-lg-2">
+	              <div class="text-center">
+	                <img width="150" src="./images/logo-sublime-text-3.png"/>
+	                <img width="150" src="./images/logo-postman.png"/>
+	                <img width="150" src="./images/logo-gitlab-ci-cd.png"/>
+	              </div>
+	            </div>
+	          </div>
+	        </div>
+
+		      
 		</div>
 		
 	</section>
@@ -311,7 +324,7 @@
 
 	<section id="contact">
 		  <div class="py-3 pb-3">
-		    <div class="p-3">
+		    <div class="p-5">
 		      <h2 class="text-center">Contact Me</h2>
 		    </div>
 
@@ -354,7 +367,7 @@
 	</section>
 
 	<section id="contact">
-		<div id="form" class="row d-flex justify-content-center col-12 col-sm-12 col-md-8 col-lg-8 col-xl-4 mx-auto py-5 mb-5 rounded">
+		<div id="form" class="row d-flex justify-content-center col-12 col-sm-12 col-md-8 col-lg-8 col-xl-4 mx-auto py-5 mb-0 rounded">
 
 			<form>
 			  <div class="mb-3">
@@ -375,6 +388,7 @@
 			  </div>
 			  <button type="submit" class="btn btn-secondary" action="mailto:nilizavillodres@gmail.com">Send Message</button>
 			</form>
+			
 
 
 
@@ -405,8 +419,14 @@
 				
 
 						
-			</form>
+			
 		</div>
+
+	</section>
+	<section id="endpart" class="p-5"> 
+		<div class="p-0"> <!-- Added a fixed height to create a blank space in the bottom of the page --> 
+			<p class="d-none">0</p> 
+		</div> 
 	</section>
 
 
